@@ -1,0 +1,1387 @@
+{
+  "metadata": {
+    "dataset": "nebius/SWE-rebench-V2",
+    "dataset_revision": "10483de0f50fe5da545942705a76c6150171af7f",
+    "seed": 42,
+    "sampling_strategy": "category quotas with category-wide repo diversity; hard->medium->easy",
+    "quota": {
+      "easy": 6,
+      "medium": 6,
+      "hard": 2
+    }
+  },
+  "tasks": [
+    {
+      "instance_id": "sage__carbon-5474",
+      "repo": "Sage/carbon",
+      "category": "Application / UI / CMS",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/sage-carbon:5474-bde9df2"
+    },
+    {
+      "instance_id": "katex__katex-1789",
+      "repo": "KaTeX/KaTeX",
+      "category": "Application / UI / CMS",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/katex-katex:1789-ec6a2b4"
+    },
+    {
+      "instance_id": "11ty__eleventy-2468",
+      "repo": "11ty/eleventy",
+      "category": "Application / UI / CMS",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/11ty-eleventy:2468-fc6fc96"
+    },
+    {
+      "instance_id": "tencent__tdesign-mobile-vue-1132",
+      "repo": "Tencent/tdesign-mobile-vue",
+      "category": "Application / UI / CMS",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/tencent-tdesign-mobile-vue:1132-08fe605"
+    },
+    {
+      "instance_id": "microsoft__griffel-364",
+      "repo": "microsoft/griffel",
+      "category": "Application / UI / CMS",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/microsoft-griffel:364-9294b8c"
+    },
+    {
+      "instance_id": "devexpress__devextreme-react-171",
+      "repo": "DevExpress/devextreme-react",
+      "category": "Application / UI / CMS",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/devexpress-devextreme-react:171-66100cb"
+    },
+    {
+      "instance_id": "video-dev__hls.js-6141",
+      "repo": "video-dev/hls.js",
+      "category": "Application / UI / CMS",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/video-dev-hls.js:6141-b0b0c7a"
+    },
+    {
+      "instance_id": "evcc-io__evcc-9015",
+      "repo": "evcc-io/evcc",
+      "category": "Application / UI / CMS",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/evcc-io-evcc:9015-4b4587a"
+    },
+    {
+      "instance_id": "tradingview__lightweight-charts-996",
+      "repo": "tradingview/lightweight-charts",
+      "category": "Application / UI / CMS",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/tradingview-lightweight-charts:996-1d49f27"
+    },
+    {
+      "instance_id": "kyeotic__raviger-37",
+      "repo": "kyeotic/raviger",
+      "category": "Application / UI / CMS",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/kyeotic-raviger:37-bae537c"
+    },
+    {
+      "instance_id": "sveltejs__kit-8034",
+      "repo": "sveltejs/kit",
+      "category": "Application / UI / CMS",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/sveltejs-kit:8034-c1b251a"
+    },
+    {
+      "instance_id": "urlaubsverwaltung__urlaubsverwaltung-5000",
+      "repo": "urlaubsverwaltung/urlaubsverwaltung",
+      "category": "Application / UI / CMS",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/urlaubsverwaltung-urlaubsverwaltung:5000-7d134bc"
+    },
+    {
+      "instance_id": "tjtanjin__react-chatbotify-212",
+      "repo": "tjtanjin/react-chatbotify",
+      "category": "Application / UI / CMS",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/tjtanjin-react-chatbotify:212-8f7012f"
+    },
+    {
+      "instance_id": "projectevergreen__greenwood-962",
+      "repo": "ProjectEvergreen/greenwood",
+      "category": "Application / UI / CMS",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/projectevergreen-greenwood:962-aa4d2f4"
+    },
+    {
+      "instance_id": "filecoin-project__specs-actors-490",
+      "repo": "filecoin-project/specs-actors",
+      "category": "Blockchain / Smart Contract",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/filecoin-project-specs-actors:490-420819e"
+    },
+    {
+      "instance_id": "filecoin-project__builtin-actors-715",
+      "repo": "filecoin-project/builtin-actors",
+      "category": "Blockchain / Smart Contract",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/filecoin-project-builtin-actors:715-2a25e79"
+    },
+    {
+      "instance_id": "ordinals__ord-4065",
+      "repo": "ordinals/ord",
+      "category": "Blockchain / Smart Contract",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/ordinals-ord:4065-8ab2aa0"
+    },
+    {
+      "instance_id": "nomicfoundation__hardhat-ignition-556",
+      "repo": "NomicFoundation/hardhat-ignition",
+      "category": "Blockchain / Smart Contract",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/nomicfoundation-hardhat-ignition:556-7448290"
+    },
+    {
+      "instance_id": "gakonst__ethers-rs-856",
+      "repo": "gakonst/ethers-rs",
+      "category": "Blockchain / Smart Contract",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/gakonst-ethers-rs:856-dc1565c"
+    },
+    {
+      "instance_id": "vyperlang__vyper-3303",
+      "repo": "vyperlang/vyper",
+      "category": "Blockchain / Smart Contract",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/vyperlang-vyper:3303-dd4d0cc"
+    },
+    {
+      "instance_id": "hyperledger__firefly-705",
+      "repo": "hyperledger/firefly",
+      "category": "Blockchain / Smart Contract",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/hyperledger-firefly:705-09a7cc6"
+    },
+    {
+      "instance_id": "btcpayserver__btcpayserver-5643",
+      "repo": "btcpayserver/btcpayserver",
+      "category": "Blockchain / Smart Contract",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/btcpayserver-btcpayserver:5643-cd8ef0c"
+    },
+    {
+      "instance_id": "fuellabs__fuel-vm-433",
+      "repo": "FuelLabs/fuel-vm",
+      "category": "Blockchain / Smart Contract",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/fuellabs-fuel-vm:433-456fe28"
+    },
+    {
+      "instance_id": "onflow__flow-cli-1432",
+      "repo": "onflow/flow-cli",
+      "category": "Blockchain / Smart Contract",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/onflow-flow-cli:1432-0d5868c"
+    },
+    {
+      "instance_id": "ecadlabs__taquito-980",
+      "repo": "ecadlabs/taquito",
+      "category": "Blockchain / Smart Contract",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/ecadlabs-taquito:980-eb6afed"
+    },
+    {
+      "instance_id": "gakonst__ethers-rs-970",
+      "repo": "gakonst/ethers-rs",
+      "category": "Blockchain / Smart Contract",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/gakonst-ethers-rs:970-133c32d"
+    },
+    {
+      "instance_id": "ordinals__ord-3659",
+      "repo": "ordinals/ord",
+      "category": "Blockchain / Smart Contract",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/ordinals-ord:3659-91a14fd"
+    },
+    {
+      "instance_id": "nomicfoundation__hardhat-ignition-568",
+      "repo": "NomicFoundation/hardhat-ignition",
+      "category": "Blockchain / Smart Contract",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/nomicfoundation-hardhat-ignition:568-2405ffb"
+    },
+    {
+      "instance_id": "sindresorhus__execa-200",
+      "repo": "sindresorhus/execa",
+      "category": "CLI / System Utilities",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/sindresorhus-execa:200-be1d70f"
+    },
+    {
+      "instance_id": "zhiburt__tabled-394",
+      "repo": "zhiburt/tabled",
+      "category": "CLI / System Utilities",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/zhiburt-tabled:394-a5b9027"
+    },
+    {
+      "instance_id": "kkawakam__rustyline-296",
+      "repo": "kkawakam/rustyline",
+      "category": "CLI / System Utilities",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/kkawakam-rustyline:296-fb048a8"
+    },
+    {
+      "instance_id": "peak__s5cmd-328",
+      "repo": "peak/s5cmd",
+      "category": "CLI / System Utilities",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/peak-s5cmd:328-d80fc02"
+    },
+    {
+      "instance_id": "pallets__click-1964",
+      "repo": "pallets/click",
+      "category": "CLI / System Utilities",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/pallets-click:1964-08ecfd0"
+    },
+    {
+      "instance_id": "apple__swift-argument-parser-690",
+      "repo": "apple/swift-argument-parser",
+      "category": "CLI / System Utilities",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/apple-swift-argument-parser:690-2edadce"
+    },
+    {
+      "instance_id": "ember-cli__ember-cli-10595",
+      "repo": "ember-cli/ember-cli",
+      "category": "CLI / System Utilities",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/ember-cli-ember-cli:10595-0439933"
+    },
+    {
+      "instance_id": "reubeno__brush-351",
+      "repo": "reubeno/brush",
+      "category": "CLI / System Utilities",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/reubeno-brush:351-6d5299f"
+    },
+    {
+      "instance_id": "pacak__bpaf-287",
+      "repo": "pacak/bpaf",
+      "category": "CLI / System Utilities",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/pacak-bpaf:287-5b72c2b"
+    },
+    {
+      "instance_id": "ouch-org__ouch-570",
+      "repo": "ouch-org/ouch",
+      "category": "CLI / System Utilities",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/ouch-org-ouch:570-e09d82e"
+    },
+    {
+      "instance_id": "xampprocky__tokei-346",
+      "repo": "XAMPPRocky/tokei",
+      "category": "CLI / System Utilities",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/xampprocky-tokei:346-46d08e6"
+    },
+    {
+      "instance_id": "yt-dlp__yt-dlp-10436",
+      "repo": "yt-dlp/yt-dlp",
+      "category": "CLI / System Utilities",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/yt-dlp-yt-dlp:10436-cc1a309"
+    },
+    {
+      "instance_id": "yargs__yargs-1356",
+      "repo": "yargs/yargs",
+      "category": "CLI / System Utilities",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/yargs-yargs:1356-812048c"
+    },
+    {
+      "instance_id": "rsteube__carapace-346",
+      "repo": "rsteube/carapace",
+      "category": "CLI / System Utilities",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/rsteube-carapace:346-3a1abf0"
+    },
+    {
+      "instance_id": "tafia__quick-xml-501",
+      "repo": "tafia/quick-xml",
+      "category": "Data / Database / Storage",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/tafia-quick-xml:501-286c203"
+    },
+    {
+      "instance_id": "elixir-ecto__ecto-2065",
+      "repo": "elixir-ecto/ecto",
+      "category": "Data / Database / Storage",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/elixir-ecto-ecto:2065-1eddfe3"
+    },
+    {
+      "instance_id": "phpoffice__phpspreadsheet-4320",
+      "repo": "PHPOffice/PhpSpreadsheet",
+      "category": "Data / Database / Storage",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/phpoffice-phpspreadsheet:4320-f33a440"
+    },
+    {
+      "instance_id": "ron-rs__ron-93",
+      "repo": "ron-rs/ron",
+      "category": "Data / Database / Storage",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/ron-rs-ron:93-cbb8822"
+    },
+    {
+      "instance_id": "victools__jsonschema-generator-460",
+      "repo": "victools/jsonschema-generator",
+      "category": "Data / Database / Storage",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/victools-jsonschema-generator:460-21faa6b"
+    },
+    {
+      "instance_id": "googleapis__java-spanner-jdbc-1444",
+      "repo": "googleapis/java-spanner-jdbc",
+      "category": "Data / Database / Storage",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/googleapis-java-spanner-jdbc:1444-1f89f78"
+    },
+    {
+      "instance_id": "kozea__weasyprint-2404",
+      "repo": "Kozea/WeasyPrint",
+      "category": "Data / Database / Storage",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/kozea-weasyprint:2404-fb46261"
+    },
+    {
+      "instance_id": "apache__jena-2827",
+      "repo": "apache/jena",
+      "category": "Data / Database / Storage",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/apache-jena:2827-c7eaf83"
+    },
+    {
+      "instance_id": "meilisearch__meilisearch-2845",
+      "repo": "meilisearch/meilisearch",
+      "category": "Data / Database / Storage",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/meilisearch-meilisearch:2845-8ad5c30"
+    },
+    {
+      "instance_id": "rq__rq-1947",
+      "repo": "rq/rq",
+      "category": "Data / Database / Storage",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/rq-rq:1947-a26f624"
+    },
+    {
+      "instance_id": "jeremydaly__dynamodb-toolbox-89",
+      "repo": "jeremydaly/dynamodb-toolbox",
+      "category": "Data / Database / Storage",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/jeremydaly-dynamodb-toolbox:89-c753c13"
+    },
+    {
+      "instance_id": "modin-project__modin-7577",
+      "repo": "modin-project/modin",
+      "category": "Data / Database / Storage",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/modin-project-modin:7577-f200245"
+    },
+    {
+      "instance_id": "valkey-io__valkey-1039",
+      "repo": "valkey-io/valkey",
+      "category": "Data / Database / Storage",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/valkey-io-valkey:1039-f89ff31"
+    },
+    {
+      "instance_id": "googlecloudplatform__cloud-sql-python-connector-1221",
+      "repo": "GoogleCloudPlatform/cloud-sql-python-connector",
+      "category": "Data / Database / Storage",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/googlecloudplatform-cloud-sql-python-connector:1221-dde235b"
+    },
+    {
+      "instance_id": "favonia__cloudflare-ddns-948",
+      "repo": "favonia/cloudflare-ddns",
+      "category": "DevOps / Cloud / Infrastructure",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/favonia-cloudflare-ddns:948-5111ab7"
+    },
+    {
+      "instance_id": "kubermatic__kubermatic-9261",
+      "repo": "kubermatic/kubermatic",
+      "category": "DevOps / Cloud / Infrastructure",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/kubermatic-kubermatic:9261-fd27902"
+    },
+    {
+      "instance_id": "azure__walinuxagent-971",
+      "repo": "Azure/WALinuxAgent",
+      "category": "DevOps / Cloud / Infrastructure",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/azure-walinuxagent:971-fc2451f"
+    },
+    {
+      "instance_id": "firebase__firebase-tools-4815",
+      "repo": "firebase/firebase-tools",
+      "category": "DevOps / Cloud / Infrastructure",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/firebase-firebase-tools:4815-64ecfbb"
+    },
+    {
+      "instance_id": "score-spec__score-compose-241",
+      "repo": "score-spec/score-compose",
+      "category": "DevOps / Cloud / Infrastructure",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/score-spec-score-compose:241-935a22a"
+    },
+    {
+      "instance_id": "metal3-io__baremetal-operator-1328",
+      "repo": "metal3-io/baremetal-operator",
+      "category": "DevOps / Cloud / Infrastructure",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/metal3-io-baremetal-operator:1328-f62aeed"
+    },
+    {
+      "instance_id": "horike37__serverless-step-functions-296",
+      "repo": "horike37/serverless-step-functions",
+      "category": "DevOps / Cloud / Infrastructure",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/horike37-serverless-step-functions:296-755e334"
+    },
+    {
+      "instance_id": "aws-powertools__powertools-lambda-typescript-3970",
+      "repo": "aws-powertools/powertools-lambda-typescript",
+      "category": "DevOps / Cloud / Infrastructure",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/aws-powertools-powertools-lambda-typescript:3970-ab0730f"
+    },
+    {
+      "instance_id": "serverless__serverless-azure-functions-402",
+      "repo": "serverless/serverless-azure-functions",
+      "category": "DevOps / Cloud / Infrastructure",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/serverless-serverless-azure-functions:402-e3d18c6"
+    },
+    {
+      "instance_id": "argoproj-labs__applicationset-197",
+      "repo": "argoproj-labs/applicationset",
+      "category": "DevOps / Cloud / Infrastructure",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/argoproj-labs-applicationset:197-cc682df"
+    },
+    {
+      "instance_id": "numaproj__numaflow-254",
+      "repo": "numaproj/numaflow",
+      "category": "DevOps / Cloud / Infrastructure",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/numaproj-numaflow:254-e615e16"
+    },
+    {
+      "instance_id": "argoproj__argo-3795",
+      "repo": "argoproj/argo",
+      "category": "DevOps / Cloud / Infrastructure",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/argoproj-argo:3795-a38101f"
+    },
+    {
+      "instance_id": "apache__camel-k-805",
+      "repo": "apache/camel-k",
+      "category": "DevOps / Cloud / Infrastructure",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/apache-camel-k:805-4423046"
+    },
+    {
+      "instance_id": "docker__compose-9073",
+      "repo": "docker/compose",
+      "category": "DevOps / Cloud / Infrastructure",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/docker-compose:9073-381df20"
+    },
+    {
+      "instance_id": "pypa__packaging-888",
+      "repo": "pypa/packaging",
+      "category": "Developer Tools / Build / Package",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/pypa-packaging:888-8e49b43"
+    },
+    {
+      "instance_id": "webpack-contrib__copy-webpack-plugin-541",
+      "repo": "webpack-contrib/copy-webpack-plugin",
+      "category": "Developer Tools / Build / Package",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/webpack-contrib-copy-webpack-plugin:541-93936a0"
+    },
+    {
+      "instance_id": "pipxproject__pipx-398",
+      "repo": "pipxproject/pipx",
+      "category": "Developer Tools / Build / Package",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/pipxproject-pipx:398-8e6f8b7"
+    },
+    {
+      "instance_id": "jazzband__pip-tools-2082",
+      "repo": "jazzband/pip-tools",
+      "category": "Developer Tools / Build / Package",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/jazzband-pip-tools:2082-f83aed3"
+    },
+    {
+      "instance_id": "scala-steward-org__scala-steward-2986",
+      "repo": "scala-steward-org/scala-steward",
+      "category": "Developer Tools / Build / Package",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/scala-steward-org-scala-steward:2986-0706345"
+    },
+    {
+      "instance_id": "rust-lang__cargo-14579",
+      "repo": "rust-lang/cargo",
+      "category": "Developer Tools / Build / Package",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/rust-lang-cargo:14579-01e1ab5"
+    },
+    {
+      "instance_id": "parcel-bundler__parcel-5131",
+      "repo": "parcel-bundler/parcel",
+      "category": "Developer Tools / Build / Package",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/parcel-bundler-parcel:5131-796e179"
+    },
+    {
+      "instance_id": "joshuakgoldberg__create-typescript-app-1609",
+      "repo": "JoshuaKGoldberg/create-typescript-app",
+      "category": "Developer Tools / Build / Package",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/joshuakgoldberg-create-typescript-app:1609-2d59a38"
+    },
+    {
+      "instance_id": "singapore__renovate-1005",
+      "repo": "singapore/renovate",
+      "category": "Developer Tools / Build / Package",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/singapore-renovate:1005-8d91a85"
+    },
+    {
+      "instance_id": "casey__just-2592",
+      "repo": "casey/just",
+      "category": "Developer Tools / Build / Package",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/casey-just:2592-ab3da9b"
+    },
+    {
+      "instance_id": "conda__conda-6128",
+      "repo": "conda/conda",
+      "category": "Developer Tools / Build / Package",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/conda-conda:6128-8d5b26c"
+    },
+    {
+      "instance_id": "pypa__pipx-1241",
+      "repo": "pypa/pipx",
+      "category": "Developer Tools / Build / Package",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/pypa-pipx:1241-407b797"
+    },
+    {
+      "instance_id": "taiki-e__cargo-hack-25",
+      "repo": "taiki-e/cargo-hack",
+      "category": "Developer Tools / Build / Package",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/taiki-e-cargo-hack:25-1aee68c"
+    },
+    {
+      "instance_id": "callowayproject__bump-my-version-347",
+      "repo": "callowayproject/bump-my-version",
+      "category": "Developer Tools / Build / Package",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/callowayproject-bump-my-version:347-6cd8392"
+    },
+    {
+      "instance_id": "kevincianfarini__cardiologist-131",
+      "repo": "kevincianfarini/cardiologist",
+      "category": "General Library / SDK",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/kevincianfarini-cardiologist:131-e377868"
+    },
+    {
+      "instance_id": "vacanza__holidays-2631",
+      "repo": "vacanza/holidays",
+      "category": "General Library / SDK",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/vacanza-holidays:2631-e1477ed"
+    },
+    {
+      "instance_id": "focus-shift__jollyday-407",
+      "repo": "focus-shift/jollyday",
+      "category": "General Library / SDK",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/focus-shift-jollyday:407-82c3937"
+    },
+    {
+      "instance_id": "brazilian-utils__brutils-python-216",
+      "repo": "brazilian-utils/brutils-python",
+      "category": "General Library / SDK",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/brazilian-utils-brutils-python:216-ff36ef9"
+    },
+    {
+      "instance_id": "zkat__miette-335",
+      "repo": "zkat/miette",
+      "category": "General Library / SDK",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/zkat-miette:335-cf2d8c0"
+    },
+    {
+      "instance_id": "dtolnay__thiserror-60",
+      "repo": "dtolnay/thiserror",
+      "category": "General Library / SDK",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/dtolnay-thiserror:60-ff9524e"
+    },
+    {
+      "instance_id": "sashabaranov__go-openai-184",
+      "repo": "sashabaranov/go-openai",
+      "category": "General Library / SDK",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/sashabaranov-go-openai:184-aa149c1"
+    },
+    {
+      "instance_id": "enthought__traits-1308",
+      "repo": "enthought/traits",
+      "category": "General Library / SDK",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/enthought-traits:1308-8851f9c"
+    },
+    {
+      "instance_id": "peternator7__strum-360",
+      "repo": "Peternator7/strum",
+      "category": "General Library / SDK",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/peternator7-strum:360-c89286f"
+    },
+    {
+      "instance_id": "go-playground__validator-1163",
+      "repo": "go-playground/validator",
+      "category": "General Library / SDK",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/go-playground-validator:1163-d57b3a8"
+    },
+    {
+      "instance_id": "briannesbitt__carbon-2665",
+      "repo": "briannesbitt/Carbon",
+      "category": "General Library / SDK",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/briannesbitt-carbon:2665-01bc4cd"
+    },
+    {
+      "instance_id": "python-attrs__attrs-430",
+      "repo": "python-attrs/attrs",
+      "category": "General Library / SDK",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/python-attrs-attrs:430-6a07b03"
+    },
+    {
+      "instance_id": "open-feature__java-sdk-512",
+      "repo": "open-feature/java-sdk",
+      "category": "General Library / SDK",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/open-feature-java-sdk:512-bbb4008"
+    },
+    {
+      "instance_id": "wikidata__wikidata-toolkit-746",
+      "repo": "Wikidata/Wikidata-Toolkit",
+      "category": "General Library / SDK",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/wikidata-wikidata-toolkit:746-9372cc9"
+    },
+    {
+      "instance_id": "jlongster__prettier-675",
+      "repo": "jlongster/prettier",
+      "category": "Language / Compiler / Static Analysis",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/jlongster-prettier:675-1415040"
+    },
+    {
+      "instance_id": "sharkdp__numbat-455",
+      "repo": "sharkdp/numbat",
+      "category": "Language / Compiler / Static Analysis",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/sharkdp-numbat:455-e3aa7b7"
+    },
+    {
+      "instance_id": "rwjblue__ember-template-lint-209",
+      "repo": "rwjblue/ember-template-lint",
+      "category": "Language / Compiler / Static Analysis",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/rwjblue-ember-template-lint:209-bfffaa1"
+    },
+    {
+      "instance_id": "ota-meshi__eslint-plugin-svelte-420",
+      "repo": "ota-meshi/eslint-plugin-svelte",
+      "category": "Language / Compiler / Static Analysis",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/ota-meshi-eslint-plugin-svelte:420-6d3e449"
+    },
+    {
+      "instance_id": "jimhester__lintr-533",
+      "repo": "jimhester/lintr",
+      "category": "Language / Compiler / Static Analysis",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/jimhester-lintr:533-34cda08"
+    },
+    {
+      "instance_id": "detekt__detekt-6825",
+      "repo": "detekt/detekt",
+      "category": "Language / Compiler / Static Analysis",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/detekt-detekt:6825-1015537"
+    },
+    {
+      "instance_id": "designliquido__delegua-647",
+      "repo": "DesignLiquido/delegua",
+      "category": "Language / Compiler / Static Analysis",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/designliquido-delegua:647-daf724b"
+    },
+    {
+      "instance_id": "kripken__emscripten-6901",
+      "repo": "kripken/emscripten",
+      "category": "Language / Compiler / Static Analysis",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/kripken-emscripten:6901-a9be9cb"
+    },
+    {
+      "instance_id": "pyccel__pyccel-1724",
+      "repo": "pyccel/pyccel",
+      "category": "Language / Compiler / Static Analysis",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/pyccel-pyccel:1724-8225da5"
+    },
+    {
+      "instance_id": "rrd108__vue-mess-detector-403",
+      "repo": "rrd108/vue-mess-detector",
+      "category": "Language / Compiler / Static Analysis",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/rrd108-vue-mess-detector:403-201753b"
+    },
+    {
+      "instance_id": "dtolnay__cxx-585",
+      "repo": "dtolnay/cxx",
+      "category": "Language / Compiler / Static Analysis",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/dtolnay-cxx:585-b03d41d"
+    },
+    {
+      "instance_id": "teleporthq__teleport-code-generators-291",
+      "repo": "teleporthq/teleport-code-generators",
+      "category": "Language / Compiler / Static Analysis",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/teleporthq-teleport-code-generators:291-ee3baaf"
+    },
+    {
+      "instance_id": "keats__tera-432",
+      "repo": "Keats/tera",
+      "category": "Language / Compiler / Static Analysis",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/keats-tera:432-2cb3678"
+    },
+    {
+      "instance_id": "sjbarag__brs-618",
+      "repo": "sjbarag/brs",
+      "category": "Language / Compiler / Static Analysis",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/sjbarag-brs:618-4137845"
+    },
+    {
+      "instance_id": "spikeinterface__spikeinterface-1999",
+      "repo": "SpikeInterface/spikeinterface",
+      "category": "Medical / Bio",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/spikeinterface-spikeinterface:1999-58fcc4a"
+    },
+    {
+      "instance_id": "cogent3__cogent3-1780",
+      "repo": "cogent3/cogent3",
+      "category": "Medical / Bio",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/cogent3-cogent3:1780-0a8708b"
+    },
+    {
+      "instance_id": "neurodatawithoutborders__pynwb-1815",
+      "repo": "NeurodataWithoutBorders/pynwb",
+      "category": "Medical / Bio",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/neurodatawithoutborders-pynwb:1815-d0c4068"
+    },
+    {
+      "instance_id": "vgteam__sequencetubemap-376",
+      "repo": "vgteam/sequenceTubeMap",
+      "category": "Medical / Bio",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/vgteam-sequencetubemap:376-050b962"
+    },
+    {
+      "instance_id": "spikeinterface__spikeinterface-2610",
+      "repo": "SpikeInterface/spikeinterface",
+      "category": "Medical / Bio",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/spikeinterface-spikeinterface:2610-93f9cc5"
+    },
+    {
+      "instance_id": "cogent3__cogent3-1650",
+      "repo": "cogent3/cogent3",
+      "category": "Medical / Bio",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/cogent3-cogent3:1650-c3cc987"
+    },
+    {
+      "instance_id": "spikeinterface__spikeinterface-3778",
+      "repo": "SpikeInterface/spikeinterface",
+      "category": "Medical / Bio",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/spikeinterface-spikeinterface:3778-526e308"
+    },
+    {
+      "instance_id": "neurodatawithoutborders__pynwb-1491",
+      "repo": "NeurodataWithoutBorders/pynwb",
+      "category": "Medical / Bio",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/neurodatawithoutborders-pynwb:1491-18d4cad"
+    },
+    {
+      "instance_id": "cogent3__cogent3-2050",
+      "repo": "cogent3/cogent3",
+      "category": "Medical / Bio",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/cogent3-cogent3:2050-7cf9ba3"
+    },
+    {
+      "instance_id": "spikeinterface__spikeinterface-3829",
+      "repo": "SpikeInterface/spikeinterface",
+      "category": "Medical / Bio",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/spikeinterface-spikeinterface:3829-b8f7253"
+    },
+    {
+      "instance_id": "neurodatawithoutborders__pynwb-987",
+      "repo": "NeurodataWithoutBorders/pynwb",
+      "category": "Medical / Bio",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/neurodatawithoutborders-pynwb:987-d3894af"
+    },
+    {
+      "instance_id": "vgteam__sequencetubemap-188",
+      "repo": "vgteam/sequenceTubeMap",
+      "category": "Medical / Bio",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/vgteam-sequencetubemap:188-8763139"
+    },
+    {
+      "instance_id": "neurodatawithoutborders__pynwb-843",
+      "repo": "NeurodataWithoutBorders/pynwb",
+      "category": "Medical / Bio",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/neurodatawithoutborders-pynwb:843-6bb2a01"
+    },
+    {
+      "instance_id": "neurodatawithoutborders__pynwb-539",
+      "repo": "NeurodataWithoutBorders/pynwb",
+      "category": "Medical / Bio",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/neurodatawithoutborders-pynwb:539-c01e1f4"
+    },
+    {
+      "instance_id": "axelrod-python__axelrod-975",
+      "repo": "Axelrod-Python/Axelrod",
+      "category": "Scientific / ML",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/axelrod-python-axelrod:975-292a70e"
+    },
+    {
+      "instance_id": "aeye-lab__pymovements-959",
+      "repo": "aeye-lab/pymovements",
+      "category": "Scientific / ML",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/aeye-lab-pymovements:959-4848d9d"
+    },
+    {
+      "instance_id": "pyomo__pyomo-1994",
+      "repo": "Pyomo/pyomo",
+      "category": "Scientific / ML",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/pyomo-pyomo:1994-acfe565"
+    },
+    {
+      "instance_id": "natcap__invest-1896",
+      "repo": "natcap/invest",
+      "category": "Scientific / ML",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/natcap-invest:1896-cf72dc5"
+    },
+    {
+      "instance_id": "plasmapy__plasmapy-346",
+      "repo": "PlasmaPy/PlasmaPy",
+      "category": "Scientific / ML",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/plasmapy-plasmapy:346-3dad2fc"
+    },
+    {
+      "instance_id": "caikit__caikit-405",
+      "repo": "caikit/caikit",
+      "category": "Scientific / ML",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/caikit-caikit:405-e3c1915"
+    },
+    {
+      "instance_id": "qiskit__qiskit-terra-9543",
+      "repo": "Qiskit/qiskit-terra",
+      "category": "Scientific / ML",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/qiskit-qiskit-terra:9543-d4006dd"
+    },
+    {
+      "instance_id": "juliastats__mixedmodels.jl-482",
+      "repo": "JuliaStats/MixedModels.jl",
+      "category": "Scientific / ML",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/juliastats-mixedmodels.jl:482-135e87d"
+    },
+    {
+      "instance_id": "dai-lab__copulas-81",
+      "repo": "DAI-Lab/Copulas",
+      "category": "Scientific / ML",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/dai-lab-copulas:81-57e4eb3"
+    },
+    {
+      "instance_id": "jump-dev__jump.jl-3756",
+      "repo": "jump-dev/JuMP.jl",
+      "category": "Scientific / ML",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/jump-dev-jump.jl:3756-48a4f74"
+    },
+    {
+      "instance_id": "pyfar__pyfar-725",
+      "repo": "pyfar/pyfar",
+      "category": "Scientific / ML",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/pyfar-pyfar:725-08ef209"
+    },
+    {
+      "instance_id": "huggingface__huggingface_hub-2683",
+      "repo": "huggingface/huggingface_hub",
+      "category": "Scientific / ML",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/huggingface-huggingface-hub:2683-d0a948f"
+    },
+    {
+      "instance_id": "aeon-toolkit__aeon-1609",
+      "repo": "aeon-toolkit/aeon",
+      "category": "Scientific / ML",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/aeon-toolkit-aeon:1609-49931d7"
+    },
+    {
+      "instance_id": "keras-team__keras-19641",
+      "repo": "keras-team/keras",
+      "category": "Scientific / ML",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/keras-team-keras:19641-9f4da51"
+    },
+    {
+      "instance_id": "cscfi__rems-1003",
+      "repo": "CSCfi/rems",
+      "category": "Security / Identity",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/cscfi-rems:1003-711085e"
+    },
+    {
+      "instance_id": "shapesecurity__salvation-153",
+      "repo": "shapesecurity/salvation",
+      "category": "Security / Identity",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/shapesecurity-salvation:153-2af6100"
+    },
+    {
+      "instance_id": "authelia__authelia-1500",
+      "repo": "authelia/authelia",
+      "category": "Security / Identity",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/authelia-authelia:1500-ba9e89e"
+    },
+    {
+      "instance_id": "nats-io__nsc-642",
+      "repo": "nats-io/nsc",
+      "category": "Security / Identity",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/nats-io-nsc:642-f85538f"
+    },
+    {
+      "instance_id": "drand__drand-851",
+      "repo": "drand/drand",
+      "category": "Security / Identity",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/drand-drand:851-aa7f6e5"
+    },
+    {
+      "instance_id": "azuread__microsoft-authentication-library-for-python-186",
+      "repo": "AzureAD/microsoft-authentication-library-for-python",
+      "category": "Security / Identity",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/azuread-microsoft-authentication-library-for-python:186-c235d4e"
+    },
+    {
+      "instance_id": "wultra__powerauth-crypto-689",
+      "repo": "wultra/powerauth-crypto",
+      "category": "Security / Identity",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/wultra-powerauth-crypto:689-42269a8"
+    },
+    {
+      "instance_id": "zeek__zeek-1169",
+      "repo": "zeek/zeek",
+      "category": "Security / Identity",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/zeek-zeek:1169-0771dbc"
+    },
+    {
+      "instance_id": "auth0__auth0-spa-js-246",
+      "repo": "auth0/auth0-spa-js",
+      "category": "Security / Identity",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/auth0-auth0-spa-js:246-a74501f"
+    },
+    {
+      "instance_id": "randombit__botan-2151",
+      "repo": "randombit/botan",
+      "category": "Security / Identity",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/randombit-botan:2151-abdcd9f"
+    },
+    {
+      "instance_id": "mozilla__cargo-vet-492",
+      "repo": "mozilla/cargo-vet",
+      "category": "Security / Identity",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/mozilla-cargo-vet:492-1fd81c5"
+    },
+    {
+      "instance_id": "woodruffw__zizmor-660",
+      "repo": "woodruffw/zizmor",
+      "category": "Security / Identity",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/woodruffw-zizmor:660-d2fa211"
+    },
+    {
+      "instance_id": "zitadel__oidc-358",
+      "repo": "zitadel/oidc",
+      "category": "Security / Identity",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/zitadel-oidc:358-211b175"
+    },
+    {
+      "instance_id": "jazzband__django-axes-885",
+      "repo": "jazzband/django-axes",
+      "category": "Security / Identity",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/jazzband-django-axes:885-038dc7c"
+    },
+    {
+      "instance_id": "denoland__deno_core-529",
+      "repo": "denoland/deno_core",
+      "category": "Systems / Runtime / Distributed",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/denoland-deno-core:529-a76aea6"
+    },
+    {
+      "instance_id": "tikv__pd-5480",
+      "repo": "tikv/pd",
+      "category": "Systems / Runtime / Distributed",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/tikv-pd:5480-d269010"
+    },
+    {
+      "instance_id": "graylog2__graylog2-server-3982",
+      "repo": "Graylog2/graylog2-server",
+      "category": "Systems / Runtime / Distributed",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/graylog2-graylog2-server:3982-090805b"
+    },
+    {
+      "instance_id": "ceph__go-ceph-364",
+      "repo": "ceph/go-ceph",
+      "category": "Systems / Runtime / Distributed",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/ceph-go-ceph:364-736858c"
+    },
+    {
+      "instance_id": "knative-sandbox__eventing-kafka-broker-1971",
+      "repo": "knative-sandbox/eventing-kafka-broker",
+      "category": "Systems / Runtime / Distributed",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/knative-sandbox-eventing-kafka-broker:1971-250b4b4"
+    },
+    {
+      "instance_id": "knative-sandbox__eventing-kafka-263",
+      "repo": "knative-sandbox/eventing-kafka",
+      "category": "Systems / Runtime / Distributed",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/knative-sandbox-eventing-kafka:263-d9b5f9c"
+    },
+    {
+      "instance_id": "open-telemetry__opentelemetry-go-contrib-6338",
+      "repo": "open-telemetry/opentelemetry-go-contrib",
+      "category": "Systems / Runtime / Distributed",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/open-telemetry-opentelemetry-go-contrib:6338-1fdd2f6"
+    },
+    {
+      "instance_id": "processmaker__nayra-137",
+      "repo": "ProcessMaker/nayra",
+      "category": "Systems / Runtime / Distributed",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/processmaker-nayra:137-42750a0"
+    },
+    {
+      "instance_id": "alibaba__fescar-406",
+      "repo": "alibaba/fescar",
+      "category": "Systems / Runtime / Distributed",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/alibaba-fescar:406-5135df2"
+    },
+    {
+      "instance_id": "commanded__commanded-227",
+      "repo": "commanded/commanded",
+      "category": "Systems / Runtime / Distributed",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/commanded-commanded:227-e639a15"
+    },
+    {
+      "instance_id": "matrixorigin__matrixcube-498",
+      "repo": "matrixorigin/matrixcube",
+      "category": "Systems / Runtime / Distributed",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/matrixorigin-matrixcube:498-98fc4f3"
+    },
+    {
+      "instance_id": "typelevel__fs2-2968",
+      "repo": "typelevel/fs2",
+      "category": "Systems / Runtime / Distributed",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/typelevel-fs2:2968-4773bfe"
+    },
+    {
+      "instance_id": "datadog__dd-trace-js-2696",
+      "repo": "DataDog/dd-trace-js",
+      "category": "Systems / Runtime / Distributed",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/datadog-dd-trace-js:2696-8c86a71"
+    },
+    {
+      "instance_id": "owncloud__ocis-5343",
+      "repo": "owncloud/ocis",
+      "category": "Systems / Runtime / Distributed",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/owncloud-ocis:5343-aff568d"
+    },
+    {
+      "instance_id": "litestar-org__polyfactory-679",
+      "repo": "litestar-org/polyfactory",
+      "category": "Testing / QA",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/litestar-org-polyfactory:679-18d8579"
+    },
+    {
+      "instance_id": "nightwatchjs__nightwatch-3595",
+      "repo": "nightwatchjs/nightwatch",
+      "category": "Testing / QA",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/nightwatchjs-nightwatch:3595-e3924a9"
+    },
+    {
+      "instance_id": "wntrblm__nox-829",
+      "repo": "wntrblm/nox",
+      "category": "Testing / QA",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/wntrblm-nox:829-6f3a459"
+    },
+    {
+      "instance_id": "tschaub__mock-fs-249",
+      "repo": "tschaub/mock-fs",
+      "category": "Testing / QA",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/tschaub-mock-fs:249-28d65a7"
+    },
+    {
+      "instance_id": "raviqqe__muffet-106",
+      "repo": "raviqqe/muffet",
+      "category": "Testing / QA",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/raviqqe-muffet:106-2c2284d"
+    },
+    {
+      "instance_id": "sourcefrog__cargo-mutants-154",
+      "repo": "sourcefrog/cargo-mutants",
+      "category": "Testing / QA",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/sourcefrog-cargo-mutants:154-676c281"
+    },
+    {
+      "instance_id": "googlechrome__lighthouse-9911",
+      "repo": "GoogleChrome/lighthouse",
+      "category": "Testing / QA",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/googlechrome-lighthouse:9911-946d27b"
+    },
+    {
+      "instance_id": "elastic__synthetics-939",
+      "repo": "elastic/synthetics",
+      "category": "Testing / QA",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/elastic-synthetics:939-21b4b2f"
+    },
+    {
+      "instance_id": "aristanetworks__anta-1113",
+      "repo": "aristanetworks/anta",
+      "category": "Testing / QA",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/aristanetworks-anta:1113-2ba75e4"
+    },
+    {
+      "instance_id": "wix__detox-1282",
+      "repo": "wix/Detox",
+      "category": "Testing / QA",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/wix-detox:1282-d870701"
+    },
+    {
+      "instance_id": "joke2k__faker-2186",
+      "repo": "joke2k/faker",
+      "category": "Testing / QA",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/joke2k-faker:2186-2a1053c"
+    },
+    {
+      "instance_id": "getmoto__moto-6469",
+      "repo": "getmoto/moto",
+      "category": "Testing / QA",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/getmoto-moto:6469-3e11578"
+    },
+    {
+      "instance_id": "theacodes__nox-535",
+      "repo": "theacodes/nox",
+      "category": "Testing / QA",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/theacodes-nox:535-b0750af"
+    },
+    {
+      "instance_id": "hypothesisworks__hypothesis-2653",
+      "repo": "HypothesisWorks/hypothesis",
+      "category": "Testing / QA",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/hypothesisworks-hypothesis:2653-a5d11a2"
+    },
+    {
+      "instance_id": "gotenberg__gotenberg-388",
+      "repo": "gotenberg/gotenberg",
+      "category": "Web / API / Network",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/gotenberg-gotenberg:388-f376cd5"
+    },
+    {
+      "instance_id": "pallets__werkzeug-2614",
+      "repo": "pallets/werkzeug",
+      "category": "Web / API / Network",
+      "difficulty": "hard",
+      "image_name": "docker.io/swerebenchv2/pallets-werkzeug:2614-92b994f"
+    },
+    {
+      "instance_id": "apigee__registry-1124",
+      "repo": "apigee/registry",
+      "category": "Web / API / Network",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/apigee-registry:1124-b3e1ddb"
+    },
+    {
+      "instance_id": "elixir-plug__plug-1116",
+      "repo": "elixir-plug/plug",
+      "category": "Web / API / Network",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/elixir-plug-plug:1116-3a9b7c5"
+    },
+    {
+      "instance_id": "labstack__echo-1563",
+      "repo": "labstack/echo",
+      "category": "Web / API / Network",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/labstack-echo:1563-c08f303"
+    },
+    {
+      "instance_id": "microsoft__kiota-5246",
+      "repo": "microsoft/kiota",
+      "category": "Web / API / Network",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/microsoft-kiota:5246-9062bba"
+    },
+    {
+      "instance_id": "formidablelabs__urql-256",
+      "repo": "FormidableLabs/urql",
+      "category": "Web / API / Network",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/formidablelabs-urql:256-320da60"
+    },
+    {
+      "instance_id": "swaggest__rest-97",
+      "repo": "swaggest/rest",
+      "category": "Web / API / Network",
+      "difficulty": "medium",
+      "image_name": "docker.io/swerebenchv2/swaggest-rest:97-18cad16"
+    },
+    {
+      "instance_id": "rochacbruno__dynaconf-188",
+      "repo": "rochacbruno/dynaconf",
+      "category": "Web / API / Network",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/rochacbruno-dynaconf:188-ca611b3"
+    },
+    {
+      "instance_id": "getkin__kin-openapi-453",
+      "repo": "getkin/kin-openapi",
+      "category": "Web / API / Network",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/getkin-kin-openapi:453-0db2d4c"
+    },
+    {
+      "instance_id": "pion__ice-256",
+      "repo": "pion/ice",
+      "category": "Web / API / Network",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/pion-ice:256-1f59642"
+    },
+    {
+      "instance_id": "go-swagger__go-swagger-3180",
+      "repo": "go-swagger/go-swagger",
+      "category": "Web / API / Network",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/go-swagger-go-swagger:3180-7cee78a"
+    },
+    {
+      "instance_id": "pajlads__dinkplugin-193",
+      "repo": "pajlads/DinkPlugin",
+      "category": "Web / API / Network",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/pajlads-dinkplugin:193-703092f"
+    },
+    {
+      "instance_id": "phoenixframework__phoenix-4240",
+      "repo": "phoenixframework/phoenix",
+      "category": "Web / API / Network",
+      "difficulty": "easy",
+      "image_name": "docker.io/swerebenchv2/phoenixframework-phoenix:4240-eb35190"
+    }
+  ]
+}
