@@ -1,0 +1,473 @@
+repo,category
+swc-project/swc,Language / Compiler / Static Analysis
+serverless/serverless,DevOps / Cloud / Infrastructure
+getmoto/moto,Testing / QA
+pandas-dev/pandas,Data / Database / Storage
+eslint/eslint,Language / Compiler / Static Analysis
+FHIR/sushi,Language / Compiler / Static Analysis
+statamic/cms,Application / UI / CMS
+analysis-dev/diktat,Language / Compiler / Static Analysis
+platers/obsidian-linter,Language / Compiler / Static Analysis
+helm/helm,DevOps / Cloud / Infrastructure
+aws-cloudformation/cfn-lint,DevOps / Cloud / Infrastructure
+PennyLaneAI/pennylane,Scientific / ML
+kestra-io/kestra,DevOps / Cloud / Infrastructure
+aio-libs/aiohttp,Web / API / Network
+JoshuaKGoldberg/create-typescript-app,Developer Tools / Build / Package
+microsoft/kiota,Web / API / Network
+zeek/zeek,Security / Identity
+sveltejs/kit,Application / UI / CMS
+HypothesisWorks/hypothesis,Testing / QA
+scalameta/scalameta,Language / Compiler / Static Analysis
+gleam-lang/gleam,Language / Compiler / Static Analysis
+pybamm-team/PyBaMM,Scientific / ML
+rust-analyzer/rust-analyzer,Language / Compiler / Static Analysis
+mgechev/revive,Language / Compiler / Static Analysis
+cqfn/diKTat,Language / Compiler / Static Analysis
+argoproj/argo,DevOps / Cloud / Infrastructure
+detekt/detekt,Language / Compiler / Static Analysis
+kubermatic/kubermatic,DevOps / Cloud / Infrastructure
+Sage/carbon,Application / UI / CMS
+Qiskit/qiskit-terra,Scientific / ML
+joernio/joern,Language / Compiler / Static Analysis
+jump-dev/JuMP.jl,Scientific / ML
+clap-rs/clap,CLI / System Utilities
+scala-steward-org/scala-steward,Developer Tools / Build / Package
+typescript-eslint/tslint-to-eslint-config,Language / Compiler / Static Analysis
+vuejs/eslint-plugin-vue,Language / Compiler / Static Analysis
+obsidian-tasks-group/obsidian-tasks,Application / UI / CMS
+phpactor/phpactor,Language / Compiler / Static Analysis
+pyccel/pyccel,Language / Compiler / Static Analysis
+OpenMDAO/OpenMDAO,Scientific / ML
+jlongster/prettier,Language / Compiler / Static Analysis
+knative/client,DevOps / Cloud / Infrastructure
+google/go-github,General Library / SDK
+pallets/click,CLI / System Utilities
+ProjectEvergreen/greenwood,Application / UI / CMS
+rust-lang/rustfmt,Language / Compiler / Static Analysis
+rust-lang/rust-analyzer,Language / Compiler / Static Analysis
+square/anvil,Language / Compiler / Static Analysis
+NeurodataWithoutBorders/pynwb,Medical / Bio
+solid/community-server,Web / API / Network
+kubernetes/kops,DevOps / Cloud / Infrastructure
+apple/swift-syntax,Language / Compiler / Static Analysis
+enthought/traits,General Library / SDK
+sdv-dev/RDT,Data / Database / Storage
+goadesign/goa,Web / API / Network
+marpple/FxTS,General Library / SDK
+primefaces/primefaces,Application / UI / CMS
+amaranth-lang/amaranth,Language / Compiler / Static Analysis
+yannickcr/eslint-plugin-react,Language / Compiler / Static Analysis
+intel/rohd,Language / Compiler / Static Analysis
+laravel/framework,Web / API / Network
+nats-io/nats-server,Systems / Runtime / Distributed
+pallets/werkzeug,Web / API / Network
+phoenixframework/phoenix,Web / API / Network
+ember-cli/eslint-plugin-ember,Language / Compiler / Static Analysis
+twigphp/Twig,Language / Compiler / Static Analysis
+veryl-lang/veryl,Language / Compiler / Static Analysis
+weaveworks/eksctl,DevOps / Cloud / Infrastructure
+singapore/renovate,Developer Tools / Build / Package
+FriendsOfPHP/PHP-CS-Fixer,Language / Compiler / Static Analysis
+Pyomo/pyomo,Scientific / ML
+JuliaLang/JuliaSyntax.jl,Language / Compiler / Static Analysis
+PHPOffice/PhpSpreadsheet,Data / Database / Storage
+rust-lang/cargo,Developer Tools / Build / Package
+stac-utils/pystac,Data / Database / Storage
+swiftlang/swift-syntax,Language / Compiler / Static Analysis
+CS-SI/eodag,Scientific / ML
+GradleUp/shadow,Developer Tools / Build / Package
+modin-project/modin,Data / Database / Storage
+sindresorhus/got,Web / API / Network
+stoplightio/spectral,Language / Compiler / Static Analysis
+keras-team/keras,Scientific / ML
+opentripplanner/OpenTripPlanner,Application / UI / CMS
+samuelcolvin/pydantic,Data / Database / Storage
+vyperlang/vyper,Blockchain / Smart Contract
+getkin/kin-openapi,Web / API / Network
+google/go-safeweb,Web / API / Network
+python-attrs/attrs,General Library / SDK
+elastic/synthetics,Testing / QA
+firebase/firebase-tools,DevOps / Cloud / Infrastructure
+GoogleChrome/lighthouse,Testing / QA
+alteryx/evalml,Scientific / ML
+FormidableLabs/urql,Web / API / Network
+narwhals-dev/narwhals,Data / Database / Storage
+pinojs/pino,Systems / Runtime / Distributed
+tetratelabs/wazero,Systems / Runtime / Distributed
+Qiskit/qiskit,Scientific / ML
+redis/redis,Data / Database / Storage
+bbc/psammead,Application / UI / CMS
+dtolnay/cxx,Language / Compiler / Static Analysis
+ExpressionEngine/ExpressionEngine,Application / UI / CMS
+PyCQA/pyflakes,Language / Compiler / Static Analysis
+Python-Markdown/markdown,Language / Compiler / Static Analysis
+aws-powertools/powertools-lambda-typescript,DevOps / Cloud / Infrastructure
+OpenRefine/OpenRefine,Data / Database / Storage
+tannerlinsley/react-query,Application / UI / CMS
+yargs/yargs,CLI / System Utilities
+alteryx/woodwork,Data / Database / Storage
+aristanetworks/anta,Testing / QA
+genjidb/genji,Data / Database / Storage
+helidon-io/helidon,Web / API / Network
+natcap/invest,Scientific / ML
+stfc/PSyclone,Language / Compiler / Static Analysis
+TanStack/router,Application / UI / CMS
+zeromicro/go-zero,DevOps / Cloud / Infrastructure
+Azure/WALinuxAgent,DevOps / Cloud / Infrastructure
+ember-cli/ember-cli,CLI / System Utilities
+filecoin-project/specs-actors,Blockchain / Smart Contract
+Nemocas/AbstractAlgebra.jl,Scientific / ML
+Nemocas/Nemo.jl,Scientific / ML
+PHP-CS-Fixer/PHP-CS-Fixer,Language / Compiler / Static Analysis
+raphlinus/pulldown-cmark,Language / Compiler / Static Analysis
+cloudflare/cloudflare-go,General Library / SDK
+jsonata-js/jsonata,Data / Database / Storage
+rsteube/carapace,CLI / System Utilities
+xlate/staedi,Data / Database / Storage
+kubernetes-sigs/cloud-provider-azure,DevOps / Cloud / Infrastructure
+mpmath/mpmath,Scientific / ML
+pajlads/DinkPlugin,Web / API / Network
+stretchr/testify,Testing / QA
+sveltejs/prettier-plugin-svelte,Language / Compiler / Static Analysis
+theacodes/nox,Testing / QA
+typedorm/typedorm,Data / Database / Storage
+ViacomInc/data-point,Data / Database / Storage
+apigee/registry,Web / API / Network
+labstack/echo,Web / API / Network
+pypa/setuptools,Developer Tools / Build / Package
+urlaubsverwaltung/urlaubsverwaltung,Application / UI / CMS
+capricorn86/happy-dom,Application / UI / CMS
+fleather-editor/fleather,Application / UI / CMS
+graphhopper/graphhopper,Web / API / Network
+lingui/js-lingui,Application / UI / CMS
+ota-meshi/eslint-plugin-regexp,Language / Compiler / Static Analysis
+pytask-dev/pytask,Scientific / ML
+tweag/nickel,Language / Compiler / Static Analysis
+Hacker0x01/react-datepicker,Application / UI / CMS
+hylo-lang/hylo,Language / Compiler / Static Analysis
+istio/istio,DevOps / Cloud / Infrastructure
+kripken/emscripten,Language / Compiler / Static Analysis
+kroxylicious/kroxylicious,Systems / Runtime / Distributed
+wix/Detox,Testing / QA
+briannesbitt/Carbon,General Library / SDK
+casey/just,Developer Tools / Build / Package
+fxamacker/cbor,Data / Database / Storage
+googleapis/java-storage,Data / Database / Storage
+JuliaSymbolics/Symbolics.jl,Scientific / ML
+kayak/pypika,Data / Database / Storage
+open-telemetry/opentelemetry-go-contrib,Systems / Runtime / Distributed
+asyncapi/modelina,Language / Compiler / Static Analysis
+Axelrod-Python/Axelrod,Scientific / ML
+dprint/dprint-plugin-typescript,Language / Compiler / Static Analysis
+goccy/go-yaml,Data / Database / Storage
+moment/luxon,General Library / SDK
+open-telemetry/opentelemetry-php,Systems / Runtime / Distributed
+pypa/pipx,Developer Tools / Build / Package
+benhoyt/goawk,Language / Compiler / Static Analysis
+evant/kotlin-inject,General Library / SDK
+KaTeX/KaTeX,Application / UI / CMS
+locationtech/jts,Scientific / ML
+mozilla-services/react-jsonschema-form,Application / UI / CMS
+networkx/networkx,Scientific / ML
+sindresorhus/execa,CLI / System Utilities
+apache/jena,Data / Database / Storage
+codezonediitj/pydatastructs,General Library / SDK
+lukeautry/tsoa,Web / API / Network
+nats-io/nsc,Security / Identity
+PrestaShop/PrestaShop,Application / UI / CMS
+python-babel/babel,General Library / SDK
+ResearchObject/ro-crate-py,Data / Database / Storage
+s-knibbs/dataclasses-jsonschema,Data / Database / Storage
+XKNX/xknx,General Library / SDK
+auth0/auth0-spa-js,Security / Identity
+eclipse-ee4j/yasson,Data / Database / Storage
+numaproj/numaflow,DevOps / Cloud / Infrastructure
+py-pdf/PyPDF2,Data / Database / Storage
+badges/shields,Application / UI / CMS
+focus-shift/jollyday,General Library / SDK
+jhipster/generator-jhipster,Developer Tools / Build / Package
+ploomber/jupysql,Data / Database / Storage
+pypa/packaging,Developer Tools / Build / Package
+rhayes777/PyAutoFit,Scientific / ML
+ta4j/ta4j,Scientific / ML
+typelevel/fs2,Systems / Runtime / Distributed
+validatorjs/validator.js,General Library / SDK
+bytecodealliance/wasm-tools,Language / Compiler / Static Analysis
+celery/celery,Systems / Runtime / Distributed
+jimhester/lintr,Language / Compiler / Static Analysis
+litestar-org/polyfactory,Testing / QA
+onflow/flow-cli,Blockchain / Smart Contract
+pyjanitor-devs/pyjanitor,Data / Database / Storage
+randombit/botan,Security / Identity
+shepmaster/snafu,General Library / SDK
+apple/swift-argument-parser,CLI / System Utilities
+arco-design/arco-design,Application / UI / CMS
+gfx-rs/naga,Language / Compiler / Static Analysis
+networknt/json-schema-validator,Data / Database / Storage
+rust-lang/chalk,Language / Compiler / Static Analysis
+tipsy/javalin,Web / API / Network
+TobikoData/sqlmesh,Data / Database / Storage
+Unidata/netcdf-c,Scientific / ML
+valkey-io/valkey,Data / Database / Storage
+vmware/govmomi,General Library / SDK
+wntrblm/nox,Testing / QA
+apiflask/apiflask,Web / API / Network
+hyperledger/firefly,Blockchain / Smart Contract
+jazzband/pip-tools,Developer Tools / Build / Package
+neogeny/TatSu,Language / Compiler / Static Analysis
+peak/s5cmd,CLI / System Utilities
+authelia/authelia,Security / Identity
+cuthbertLab/music21,Scientific / ML
+DataDog/dd-trace-js,Systems / Runtime / Distributed
+domluna/JuliaFormatter.jl,Language / Compiler / Static Analysis
+gakonst/ethers-rs,Blockchain / Smart Contract
+hdmf-dev/hdmf,Data / Database / Storage
+JsonMapper/JsonMapper,Data / Database / Storage
+MyreMylar/pygame_gui,Application / UI / CMS
+nightwatchjs/nightwatch,Testing / QA
+segmentio/parquet-go,Data / Database / Storage
+tursodatabase/limbo,Data / Database / Storage
+apollographql/apollo-rs,Language / Compiler / Static Analysis
+docker/compose,DevOps / Cloud / Infrastructure
+elm-tooling/elm-language-server,Language / Compiler / Static Analysis
+go-kratos/kratos,Web / API / Network
+go-swagger/go-swagger,Web / API / Network
+grafana/tanka,DevOps / Cloud / Infrastructure
+hapijs/joi,Data / Database / Storage
+hyrodium/BasicBSpline.jl,Scientific / ML
+microsoft/griffel,Application / UI / CMS
+nats-io/nats.go,Systems / Runtime / Distributed
+paustint/soql-parser-js,Language / Compiler / Static Analysis
+PyCQA/docformatter,Language / Compiler / Static Analysis
+tafia/quick-xml,Data / Database / Storage
+absinthe-graphql/absinthe,Web / API / Network
+containrrr/watchtower,DevOps / Cloud / Infrastructure
+horike37/serverless-step-functions,DevOps / Cloud / Infrastructure
+jelmer/dulwich,Developer Tools / Build / Package
+JuliaPlots/Makie.jl,Scientific / ML
+rochacbruno/dynaconf,Web / API / Network
+rust-lang/rust-bindgen,Language / Compiler / Static Analysis
+vacanza/holidays,General Library / SDK
+vuejs/composition-api,Application / UI / CMS
+zitadel/oidc,Security / Identity
+argoproj-labs/applicationset,DevOps / Cloud / Infrastructure
+boardgameio/boardgame.io,Application / UI / CMS
+caikit/caikit,Scientific / ML
+cogent3/cogent3,Medical / Bio
+CuyZ/Valinor,Data / Database / Storage
+huggingface/huggingface_hub,Scientific / ML
+knative-sandbox/eventing-kafka-broker,Systems / Runtime / Distributed
+pymc-devs/pytensor,Scientific / ML
+raml-org/raml-java-parser,Language / Compiler / Static Analysis
+robotpy/cxxheaderparser,Language / Compiler / Static Analysis
+ron-rs/ron,Data / Database / Storage
+rust-ndarray/ndarray,Scientific / ML
+shapesecurity/salvation,Security / Identity
+symfony/ux,Application / UI / CMS
+video-dev/hls.js,Application / UI / CMS
+cockroachdb/pebble,Data / Database / Storage
+commanded/commanded,Systems / Runtime / Distributed
+favonia/cloudflare-ddns,DevOps / Cloud / Infrastructure
+git-lfs/git-lfs,Developer Tools / Build / Package
+gitify-app/gitify,Application / UI / CMS
+jlowin/fastmcp,Web / API / Network
+JoshuaKGoldberg/bingo,Developer Tools / Build / Package
+mozilla/cargo-vet,Security / Identity
+scikit-build/scikit-build-core,Developer Tools / Build / Package
+spaze/phpstan-disallowed-calls,Language / Compiler / Static Analysis
+aeon-toolkit/aeon,Scientific / ML
+aeye-lab/pymovements,Scientific / ML
+denoland/deno_core,Systems / Runtime / Distributed
+evcc-io/evcc,Application / UI / CMS
+fyne-io/fyne,Application / UI / CMS
+ipython/traitlets,General Library / SDK
+newrelic/elixir_agent,Systems / Runtime / Distributed
+redis/lettuce,Data / Database / Storage
+sharkdp/numbat,Language / Compiler / Static Analysis
+SpikeInterface/spikeinterface,Medical / Bio
+urql-graphql/urql,Web / API / Network
+whitfin/cachex,Systems / Runtime / Distributed
+yt-dlp/yt-dlp,CLI / System Utilities
+zkat/miette,General Library / SDK
+brazilian-utils/brutils-python,General Library / SDK
+callowayproject/bump-my-version,Developer Tools / Build / Package
+crossplane/provider-aws,DevOps / Cloud / Infrastructure
+ecadlabs/taquito,Blockchain / Smart Contract
+Ferrite-FEM/Ferrite.jl,Scientific / ML
+google/autocxx,Language / Compiler / Static Analysis
+hapijs/wreck,Web / API / Network
+jeremydaly/dynamodb-toolbox,Data / Database / Storage
+parcel-bundler/parcel,Developer Tools / Build / Package
+ProcessMaker/modeler,Application / UI / CMS
+pulldown-cmark/pulldown-cmark,Language / Compiler / Static Analysis
+pyfar/pyfar,Scientific / ML
+FuelLabs/fuel-vm,Blockchain / Smart Contract
+FuelLabs/fuelup,Developer Tools / Build / Package
+GoogleCloudPlatform/cloud-sql-python-connector,Data / Database / Storage
+gotenberg/gotenberg,Web / API / Network
+JoshuaKGoldberg/tslint-to-eslint-config,Language / Compiler / Static Analysis
+knative-sandbox/eventing-kafka,Systems / Runtime / Distributed
+Kozea/WeasyPrint,Data / Database / Storage
+maeil-mail/maeil-mail-be,Application / UI / CMS
+meilisearch/meilisearch,Data / Database / Storage
+metal3-io/baremetal-operator,DevOps / Cloud / Infrastructure
+mie-lab/trackintel,Scientific / ML
+pingcap/tidb,Data / Database / Storage
+pyqtgraph/pyqtgraph,Scientific / ML
+python/typing_extensions,General Library / SDK
+reubeno/brush,CLI / System Utilities
+alangpierce/sucrase,Language / Compiler / Static Analysis
+bitshifter/glam-rs,Scientific / ML
+bluesky/bluesky,Scientific / ML
+ceph/go-ceph,Systems / Runtime / Distributed
+copier-org/copier,Developer Tools / Build / Package
+CSCfi/rems,Security / Identity
+fortio/fortio,Testing / QA
+gardener/machine-controller-manager,DevOps / Cloud / Infrastructure
+Graylog2/graylog2-server,Systems / Runtime / Distributed
+joke2k/faker,Testing / QA
+julia-vscode/CSTParser.jl,Language / Compiler / Static Analysis
+kevincianfarini/cardiologist,General Library / SDK
+ManiacalLabs/BiblioPixel,Application / UI / CMS
+MarketSquare/robotframework-robocop,Language / Compiler / Static Analysis
+mercurius-js/mercurius,Web / API / Network
+Peternator7/strum,General Library / SDK
+pre-commit/pre-commit,Developer Tools / Build / Package
+RBusarow/ModuleCheck,Developer Tools / Build / Package
+rq/rq,Data / Database / Storage
+semantic-release/semantic-release,Developer Tools / Build / Package
+serverless/serverless-azure-functions,DevOps / Cloud / Infrastructure
+sourcefrog/cargo-mutants,Testing / QA
+Tencent/tdesign-mobile-vue,Application / UI / CMS
+11ty/eleventy,Application / UI / CMS
+alibaba/fescar,Systems / Runtime / Distributed
+bytecodealliance/wasmtime,Systems / Runtime / Distributed
+chanind/hanzi-writer,Application / UI / CMS
+effector/effector,Application / UI / CMS
+elixir-ecto/ecto,Data / Database / Storage
+eslint-community/eslint-plugin-promise,Language / Compiler / Static Analysis
+gavv/httpexpect,Testing / QA
+ipfs/boxo,Systems / Runtime / Distributed
+jorgecarleitao/arrow2,Data / Database / Storage
+kyeotic/raviger,Application / UI / CMS
+maciejhirsz/json-rust,Data / Database / Storage
+OpenMined/PySyft,Scientific / ML
+pheature-flags/pheature-flags,General Library / SDK
+pipxproject/pipx,Developer Tools / Build / Package
+probmods/webppl,Scientific / ML
+projectlombok/lombok,Language / Compiler / Static Analysis
+rrd108/vue-mess-detector,Language / Compiler / Static Analysis
+rust-itertools/itertools,General Library / SDK
+rwjblue/ember-template-lint,Language / Compiler / Static Analysis
+SeaQL/sea-orm,Data / Database / Storage
+skiptests/astraea,Systems / Runtime / Distributed
+swaggest/rest,Web / API / Network
+taiki-e/cargo-hack,Developer Tools / Build / Package
+yukinarit/pyserde,Data / Database / Storage
+zeit/swr,Application / UI / CMS
+zhiburt/tabled,CLI / System Utilities
+AfterShip/clickhouse-sql-parser,Language / Compiler / Static Analysis
+azat-io/eslint-plugin-perfectionist,Language / Compiler / Static Analysis
+AzureAD/microsoft-authentication-library-for-python,Security / Identity
+baianat/vee-validate,Application / UI / CMS
+blitz-js/superjson,Data / Database / Storage
+dask/dask,Scientific / ML
+DevExpress/devextreme-react,Application / UI / CMS
+filecoin-project/builtin-actors,Blockchain / Smart Contract
+go-bdd/gobdd,Testing / QA
+goblint/cil,Language / Compiler / Static Analysis
+matrixorigin/matrixcube,Systems / Runtime / Distributed
+nicoespeon/abracadabra,Language / Compiler / Static Analysis
+NomicFoundation/hardhat-ignition,Blockchain / Smart Contract
+open-feature/java-sdk,General Library / SDK
+pacak/bpaf,CLI / System Utilities
+sktime/sktime,Scientific / ML
+SwitchbackTech/compass,Application / UI / CMS
+tjtanjin/react-chatbotify,Application / UI / CMS
+Wikidata/Wikidata-Toolkit,General Library / SDK
+wultra/powerauth-crypto,Security / Identity
+apache/pulsar-client-go,Systems / Runtime / Distributed
+DAI-Lab/Copulas,Scientific / ML
+drivendataorg/cloudpathlib,Data / Database / Storage
+dtolnay/thiserror,General Library / SDK
+eemeli/yaml,Data / Database / Storage
+fabien0102/ts-to-zod,Language / Compiler / Static Analysis
+googleapis/java-spanner-jdbc,Data / Database / Storage
+JuliaStats/MixedModels.jl,Scientific / ML
+k0sproject/k0sctl,DevOps / Cloud / Infrastructure
+mapbox/mapbox-directions-swift,Web / API / Network
+mehcode/config-rs,General Library / SDK
+mozilla-services/cliquet,Web / API / Network
+ouch-org/ouch,CLI / System Utilities
+pion/ice,Web / API / Network
+ProcessMaker/nayra,Systems / Runtime / Distributed
+proullon/ramsql,Data / Database / Storage
+PyThaiNLP/pythainlp,Scientific / ML
+qiskit-community/ffsim,Scientific / ML
+raviqqe/muffet,Testing / QA
+regclient/regclient,DevOps / Cloud / Infrastructure
+relekang/python-semantic-release,Developer Tools / Build / Package
+SciML/RecursiveArrayTools.jl,Scientific / ML
+serpro69/kotlin-faker,Testing / QA
+TDAmeritrade/stumpy,Scientific / ML
+tikv/pd,Systems / Runtime / Distributed
+tradingview/lightweight-charts,Application / UI / CMS
+w3c/webidl2.js,Language / Compiler / Static Analysis
+woodruffw/zizmor,Security / Identity
+avaje/avaje-inject,Language / Compiler / Static Analysis
+benchopt/benchopt,Scientific / ML
+btcpayserver/btcpayserver,Blockchain / Smart Contract
+DesignLiquido/delegua,Language / Compiler / Static Analysis
+DetachHead/basedpyright,Language / Compiler / Static Analysis
+dotenv-linter/dotenv-linter,Language / Compiler / Static Analysis
+drand/drand,Security / Identity
+elixir-plug/plug,Web / API / Network
+go-playground/validator,General Library / SDK
+GoogleCloudPlatform/pgadapter,Data / Database / Storage
+gtalarico/pyairtable,General Library / SDK
+inovex/scrumlr.io,Application / UI / CMS
+jprichardson/node-fs-extra,General Library / SDK
+Keats/tera,Language / Compiler / Static Analysis
+kkawakam/rustyline,CLI / System Utilities
+kubernetes/minikube,DevOps / Cloud / Infrastructure
+mdx-js/mdx-analyzer,Language / Compiler / Static Analysis
+netz98/n98-magerun2,CLI / System Utilities
+ocaml-multicore/picos,Systems / Runtime / Distributed
+opencontainers/runc,Systems / Runtime / Distributed
+OpenMDAO/dymos,Scientific / ML
+PlasmaPy/PlasmaPy,Scientific / ML
+remix-run/remix,Web / API / Network
+sashabaranov/go-openai,General Library / SDK
+score-spec/score-compose,DevOps / Cloud / Infrastructure
+segmentio/encoding,General Library / SDK
+sharksforarms/deku,Data / Database / Storage
+sjbarag/brs,Language / Compiler / Static Analysis
+StingraySoftware/stingray,Scientific / ML
+tealeg/xlsx,Data / Database / Storage
+teleporthq/teleport-code-generators,Language / Compiler / Static Analysis
+victools/jsonschema-generator,Data / Database / Storage
+webpack-contrib/copy-webpack-plugin,Developer Tools / Build / Package
+apache/camel-k,DevOps / Cloud / Infrastructure
+cobalt-org/liquid-rust,Language / Compiler / Static Analysis
+conda/conda,Developer Tools / Build / Package
+googleapis/python-api-core,General Library / SDK
+graphql/graphql-js,Web / API / Network
+iterative/dvc,Developer Tools / Build / Package
+jazzband/django-axes,Security / Identity
+jnothman/UpSetPlot,Scientific / ML
+knowm/XChart,Scientific / ML
+kovetskiy/mark,Developer Tools / Build / Package
+kubernetes-sigs/security-profiles-operator,DevOps / Cloud / Infrastructure
+mapbox/batfish,Application / UI / CMS
+open-feature/js-sdk,General Library / SDK
+ordinals/ord,Blockchain / Smart Contract
+ota-meshi/eslint-plugin-svelte,Language / Compiler / Static Analysis
+owncloud/ocis,Systems / Runtime / Distributed
+pingcap/dumpling,Data / Database / Storage
+ruby/prism,Language / Compiler / Static Analysis
+syuilo/aiscript,Language / Compiler / Static Analysis
+tschaub/mock-fs,Testing / QA
+vgteam/sequenceTubeMap,Medical / Bio
+XAMPPRocky/tokei,CLI / System Utilities
+zh-lx/pinyin-pro,General Library / SDK
