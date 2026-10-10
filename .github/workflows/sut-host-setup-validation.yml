@@ -14,10 +14,10 @@ jobs:
       - name: Stage current code on SUT Host
         run: |
           ssh -o BatchMode=yes sut-t3650 \
-            'rm -rf /tmp/capacious-ci && mkdir -p /tmp/capacious-ci'
+            'rm -rf /tmp/capacious-ci && mkdir -p /tmp/capacious-ci/scripts'
 
           scp -r scripts/env_setup \
-            sut-t3650:/tmp/capacious-ci/
+            sut-t3650:/tmp/capacious-ci/scripts/
 
       - name: Run SUT Host setup
         run: |
