@@ -1,0 +1,40 @@
+name: SUT Host Setup Validation
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sut-host-validation:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Stage current code on SUT Host
+        run: |
+          ssh -o BatchMode=yes sut-t3650 \
+            'rm -rf /tmp/capacious-ci && mkdir -p /tmp/capacious-ci'
+
+          scp -r scripts/env_setup \
+            sut-t3650:/tmp/capacious-ci/
+
+      - name: Run SUT Host setup
+        run: |
+          ssh -o BatchMode=yes sut-t3650 '
+            cd /tmp/capacious-ci &&
+            bash scripts/env_setup/setup_sut_host.sh --grant-docker-access
+          '
+
+      - name: Run SUT Host preflight
+        run: |
+          ssh -o BatchMode=yes sut-t3650 '
+            cd /tmp/capacious-ci &&
+            python3 scripts/env_setup/preflight_sut_host.py
+          '
+
+      - name: Clean up staged files
+        if: always()
+        run: |
+          ssh -o BatchMode=yes sut-t3650 \
+            'rm -rf /tmp/capacious-ci'
